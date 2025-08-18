@@ -9,11 +9,11 @@ export default {
     mainText: { fontSize: '5rem', fontWeight: 'bold', colors: ['#333333', '#32117C'], marginLeft: 0 },
     supportingText: { fontSize: '2rem', fontWeight: 'bold', color: '#333333', marginTop: 20, marginBottom: 100},
     iconGroup: { 
-      about: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/about.png" },
-      work: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/work.png" },
-      links: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/links.png" },
-      faq: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/faq.png" },
-      museum: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/museum.png" },
+      about: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/about.webp" },
+      work: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/work.webp" },
+      links: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/links.webp" },
+      faq: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/faq.webp" },
+      museum: { width: 100, height: 140, margin: 10, source: "/sources/ico/home/museum.webp" },
     },
     icon: { width: 100, height: 100 },
     iconText: { width: 100, height: 40, fontSize: '1.25rem', fontWeight: 'bold', color: '#333333' },
@@ -56,11 +56,11 @@ export default {
       },
       videoGrid: { gap: 20 },
       videoSlots: {
-        slot1: { width: 430, height: 242, showDimensions: false, source: "https://youtu.be/TdlOwJ3p9Bw" },  // horizontal 16:9
-        slot2: { width: 430, height: 242, showDimensions: false, source: "https://youtu.be/5c-9aJYq-XA" }, // horizontal 16:9
-        slot3: { width: 253, height: 450, showDimensions: false, source: "https://youtube.com/shorts/sSbO3aEqthw?feature=share" }, // vertical 9:16
-        slot4: { width: 338, height: 450, showDimensions: false, source: "https://youtube.com/shorts/yDfvRPXB32o?feature=share" },  // vertical 3:4
-        slot5: { width: 253, height: 450, showDimensions: false, source: "https://youtube.com/shorts/TUk7U1mkRu0?feature=share" },  // vertical 9:16
+        slot1: { width: 430, height: 242, showDimensions: false, source: "/sources/vid/work/snhat.mp4" },  // horizontal 16:9
+        slot2: { width: 430, height: 242, showDimensions: false, source: "/sources/vid/work/galazy.mp4" }, // horizontal 16:9
+        slot3: { width: 253, height: 450, showDimensions: false, source: "/sources/vid/work/cube.mp4" }, // vertical 9:16
+        slot4: { width: 338, height: 450, showDimensions: false, source: "/sources/vid/work/unlockit.mp4" },  // vertical 3:4
+        slot5: { width: 253, height: 450, showDimensions: false, source: "/sources/vid/work/acye.mp4" },  // vertical 9:16
       },
       videoSettings: {
         autoplay: false,
@@ -85,14 +85,14 @@ export default {
     closeButton: { fontSize: '1.5rem', fontWeight: 'bold', color: '#333333' },
     contentArea: { height: 340, padding: [15, 15, 0, 15] },  
     iconGroup: {
-      group1: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/discord.png" },
-      group2: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/instagram.png" },
-      group3: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/telegram.png" },
-      group4: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/linkedin.png" },
-      group5: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/github.png" },
-      group6: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/x.png" },
-      group7: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/whatsapp.png" },
-      group8: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/youtube.png" },
+      group1: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/discord.webp" },
+      group2: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/instagram.webp" },
+      group3: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/telegram.webp" },
+      group4: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/linkedin.webp" },
+      group5: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/github.webp" },
+      group6: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/x.webp" },
+      group7: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/whatsapp.webp" },
+      group8: { width: 100, height: 120, margin: [0, 20, 10, 20], source: "/sources/ico/links/youtube.webp" },
     },
     icons: { width: 80, height: 80 },
     iconText: { width: 100, height: 40, fontSize: '1.25rem', fontWeight: 'bold', color: '#333333' },
@@ -119,7 +119,7 @@ export default {
     closeButton: { fontSize: '1.5rem', fontWeight: 'bold', color: '#333333' },
     contentArea: { height: 540, padding: [20, 0, 0, 20] },
     scrollContainer: { height: 'calc(100% - 40px)', overflowY: 'auto'},
-    arrow: { source: "/sources/ico/faq/arrow.png", width: 16, height: 16 },
+    arrow: { source: "/sources/ico/faq/arrow.webp", width: 16, height: 16 },
     questionContainer: { 
       width: 540, 
       margin: [0, 0, 20, 0], 
@@ -177,22 +177,22 @@ export default {
     section2: {
       title: { fontSize: '1.25rem', fontWeight: 'bold', color: '#333333' },
       picture: { width: 205, height: 205, spacing: 20, borderRadius: 10, backgroundColor: '#DBDBDB' },
-      picture1: { source: "/sources/img/museum/tech/ipad_gen_1st.webp" },
-      picture2: { source: "/sources/img/museum/tech/ipad_gen_8th.webp" },
-      picture3: { source: "/sources/img/museum/tech/ipad_air_4.webp" },
-      picture4: { source: "/sources/img/museum/tech/ipad_air_5.webp" },
-      picture5: { source: "/sources/img/museum/tech/acer_nitro_5.webp" },
-      picture6: { source: "/sources/img/museum/tech/attack_shark_x3.webp" },
-      picture7: { source: "/sources/img/museum/tech/za68_pro.webp" },
-      picture8: { source: "/sources/img/museum/tech/moondrop_space_travel.webp" },
-      picture9: { source: "/sources/img/museum/tech/hyperone_gen_2_with_silentium.webp" },
-      picture10: { source: "/sources/img/museum/tech/logitech_m575s.webp" },
-      picture11: { source: "/sources/img/museum/tech/seiko_watch.webp" },
-      picture12: { source: "/sources/img/museum/tech/asus_vivobook_x509fa.webp" },
-      picture13: { source: "/sources/img/museum/tech/logitech_cordless_trackman_wheel.webp" },
-      picture14: { source: "/sources/img/museum/tech/protoarc_em01_white_rgb-ring.webp" },
-      picture15: { source: "/sources/img/museum/tech/hhkb_pro_hybrid_type-s_snow.webp" },
-      picture16: { source: "/sources/img/museum/tech/lg_23ea63.webp" },
+      picture1: { source: "/sources/img/museum/tech/ipad_gen_1st.jpg" },
+      picture2: { source: "/sources/img/museum/tech/ipad_gen_8th.jpg" },
+      picture3: { source: "/sources/img/museum/tech/ipad_air_4.jpg" },
+      picture4: { source: "/sources/img/museum/tech/ipad_air_5.jpg" },
+      picture5: { source: "/sources/img/museum/tech/acer_nitro_5.jpg" },
+      picture6: { source: "/sources/img/museum/tech/attack_shark_x3.jpg" },
+      picture7: { source: "/sources/img/museum/tech/za68_pro.jpg" },
+      picture8: { source: "/sources/img/museum/tech/moondrop_space_travel.jpg" },
+      picture9: { source: "/sources/img/museum/tech/hyperone_with_m575s.jpg" },
+      picture10: { source: "/sources/img/museum/tech/logitech_m575s.jpg" },
+      picture11: { source: "/sources/img/museum/tech/seiko_watch.jpg" },
+      picture12: { source: "/sources/img/museum/tech/asus_vivobook_x509fa.jpg" },
+      picture13: { source: "/sources/img/museum/tech/logitech_cordless_trackman_wheel.jpg" },
+      picture14: { source: "/sources/img/museum/tech/protoarc_em01_white_rgb-ring.jpg" },
+      picture15: { source: "/sources/img/museum/tech/hhkb_pro_hybrid_type-s_snow.jpg" },
+      picture16: { source: "/sources/img/museum/tech/legion_pro_5_2023_white.jpg" },
     },
     section3: {
       title: { fontSize: '1.25rem', fontWeight: 'bold', color: '#333333' },
